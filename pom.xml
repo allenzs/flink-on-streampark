@@ -28,11 +28,13 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-planner-loader</artifactId>
             <version>${flink.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-runtime</artifactId>
             <version>${flink.version}</version>
+            <scope>provided</scope>
         </dependency>
         <!-- Runtime so you can execute locally from a main() -->
         <dependency>
@@ -55,12 +57,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
